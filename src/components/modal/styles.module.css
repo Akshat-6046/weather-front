@@ -1,0 +1,23 @@
+.modalOuterContainer{
+    position: fixed;
+    top:0;
+    left:0;
+    right:0;
+    bottom: 0;
+    background-color: rgba(200, 200, 200, 0.23);
+    backdrop-filter: blur(1.5px);
+}
+.modalContainer{
+    z-index:15;
+    position:fixed;
+    min-width:50%;
+    min-height:20%;
+    max-height:80%;
+    top:38%;
+    left:50%;
+    padding:14px;
+    transform: translate(-50%,-50%);
+    background-color: #fff;
+    border-radius: 6px;
+    box-shadow: 0 0 6px rgb(61, 61, 61);
+}

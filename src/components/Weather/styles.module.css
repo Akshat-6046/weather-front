@@ -1,0 +1,80 @@
+.heading{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    margin:6px;
+    font-size: 24px;
+    color:#f9f9f9;
+    font-weight: 600;
+    text-shadow: 0 0 4px black;
+}
+.container{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin:40px;
+    padding:10px 30px 20px;
+    border-radius: 8px;
+}
+
+.box{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding:10px;
+    margin:40px 20px;
+    width:100%;
+    cursor: pointer;
+    
+}
+
+.card{
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    color:rgb(32, 32, 32);
+    border: 1px solid rgb(48, 48, 48);
+    border-radius: 8px;
+    width: 20%;
+    background-color: rgba(191, 243, 222, 0.293);
+    box-shadow: 0 0 12px 3px rgba(0, 0, 0, 0.715);
+    backdrop-filter: blur(4px);
+    transition: all 0.2s;
+}
+
+.card:hover{
+    transform: scale(1.05); 
+    border: 1px solid rgb(254, 254, 254);
+    box-shadow: 0 0 4px 2px rgba(255, 255, 255, 0.715);
+
+}
+.cardMain{
+    font-size:32px;
+    padding: 2px 4px 6px;
+}
+.cardToday{
+    font-size:12px;
+    padding: 2px 4px 6px;
+    height:12px;
+    font-weight: 300;
+}
+.cardDate{
+    font-size:26px;
+    padding: 8px 4px 0px;
+}
+.cardTemp{
+    font-size:36px;
+    padding: 10px 0;
+    font-weight: 600;
+}
+.cardDesc{
+    font-size:18px;
+    padding: 4px 0;
+    display:flex;
+    font-weight: 600;
+    font-style: oblique;
+    justify-content: center;
+    align-items: center;
+}

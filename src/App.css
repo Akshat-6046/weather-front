@@ -1,12 +1,26 @@
+*{
+  font-family: 'Poppins';
+}
 .App {
   text-align: center;
+  /* background-color: #cbebf4; */
+  width:100vw;
+  height:100vh;
+  background-image: url('./weather_bgmain.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .App-logo {
   height: 40vmin;
   pointer-events: none;
 }
-
+.empty{
+  font-size:30px;
+  font-weight: 600;
+  color: rgb(238, 231, 231);
+  text-shadow: 0 0 2px rgb(172, 34, 32);
+}
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
@@ -26,13 +40,4 @@
 
 .App-link {
   color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
 }

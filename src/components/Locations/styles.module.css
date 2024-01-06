@@ -1,0 +1,22 @@
+.container{
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin: 40px 100px;
+    color: #d6d6d6;
+    padding: 10px 30px 20px;
+    border-radius: 8px;
+    background-color: rgb(24 35 33 / 38%);
+    box-shadow: 0 0 19px 3px rgb(210 255 248 / 24%);
+    backdrop-filter: blur(2px);
+    
+}
+.heading{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    margin:6px;
+    font-size: 20px;
+}
